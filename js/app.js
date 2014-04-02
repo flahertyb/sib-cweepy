@@ -1,22 +1,30 @@
-// Start the application when the dom ready event has fired
+var AVATAR_IMAGES = [
+  'http://placekitten.com/50/50'
+]
+
+// Code inside here will run when the dom ready event has fired
 $(document).ready(function () {
 
   /**
 
   1. Add an event listener for the button
+     # checkout http://api.jquery.com/category/events/mouse-events/
 
-  2. render a form inside the .header from that event.
-     wrap the form with in an .add-cweep-form div to get
-     the styles.
+  2. Append an element with the class .add-cweep-form to the <header> element.
+     Within the form, you'll need:
+       - an <input> element with the class 'message'
+       - an <a> element with the class 'button'
 
-     The form should have an <input class='message'/>
-     and a <a class='button'>Post'</a>
+     # check out http://api.jquery.com/category/manipulation/
 
-  3. Add a 'cweep' to the list when the form is submitted
+  3. When the .add-cweep button is clicked, add an <li> element
+     to the .cweep-list <ul> element. You'll need to include the message from
+     the form above.
 
-  4. Remove the form
+  4. In addition to adding the .cweep li element, remove the form element.
 
-  5. Refactor
+  5. Try moving your html out into handlebars source tags in index.html.
+     The scripts should have the attribute type="x-handlebars"
 
   **/
 
