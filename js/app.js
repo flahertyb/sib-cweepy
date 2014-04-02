@@ -1,5 +1,8 @@
 var AVATAR_IMAGES = [
-  'http://placekitten.com/50/50'
+  'http://placekitten.com/50/50',
+  'http://www.charitynavigator.org/_gfx_/causes/small/animal_rights.gif',
+  'http://www.dltk-kids.com/crafts/miscellaneous/image/100px/desert.gif',
+  'http://www.dltk-kids.com/crafts/miscellaneous/image/100px/ocean.gif'
 ]
 
 // Code inside here will run when the dom ready event has fired
